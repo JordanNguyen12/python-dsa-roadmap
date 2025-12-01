@@ -17,7 +17,7 @@ def populated_list():
     return ll
 
 
-class TestLinkedList():
+class TestLinkedList:
 
     def test_insert_front(self, empty_list):
         assert empty_list.head is None

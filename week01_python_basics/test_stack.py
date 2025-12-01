@@ -17,7 +17,7 @@ def populated_stack():
     return stack
 
 
-class TestStack():
+class TestStack:
 
     def test_push(self, empty_stack, populated_stack):
         empty_stack.push(1)
